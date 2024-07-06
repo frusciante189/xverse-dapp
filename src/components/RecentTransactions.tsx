@@ -154,6 +154,13 @@ const RecentTransactions = () => {
           </button>
         </div>
         <div className="flex flex-col gap-4">
+          <div className="flex items-center justify-between text-white/50 leading-[15px] text-xs px-8">
+            <span className="w-[250px]">Type / Date</span>
+            <div className="flex items-center justify-between flex-1">
+              <span>Status</span>
+              <span>Amount</span>
+            </div>
+          </div>
           <div className="overflow-y-auto max-h-[605px] hideScrollbar">
             <div className="flex flex-col">
               {transactions.map((transaction, index) => (
