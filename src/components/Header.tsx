@@ -20,7 +20,7 @@ const Header = ({
           <span className="sr-only">Open sidebar</span>
           <Bars3Icon aria-hidden="true" className="h-6 w-6" />
         </button>
-        <h1 className="font-medium text-3xl min-[1100px]:text-[40px] min-[1100px]:leading-[46px] text-white">
+        <h1 className="font-medium text-3xl min-[1100px]:text-[40px] min-[1100px]:leading-[46px] text-white sm:ml-0 ml-5">
           Dashboard
         </h1>
       </div>
